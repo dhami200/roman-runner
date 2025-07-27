@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Platformer Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <canvas id="gameCanvas" width="800" height="400"></canvas>
+  <div id="gameOverMenu" style="display: none;">
+  <h1>💀 Game Over</h1>
+  <p>Your Score: <span id="finalScore">0</span></p>
+  <button onclick="restartGame()">🔁 Restart</button>
+  <button onclick="resumeGame()">▶️ Resume</button>
+  <button onclick="playAgain()">🔄 Play Again</button>
+</div>
+
+  <script src="script.js"></script>
+</body>
+</html>

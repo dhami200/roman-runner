@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background-color: #000;
+}
+
+canvas {
+  display: block;
+  margin: 0 auto;
+  border: 2px solid #000;
+}
+#gameOverMenu {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(255, 255, 255, 0.9);
+  padding: 30px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #000;
+  font-family: sans-serif;
+  z-index: 10;
+}
+
+#gameOverMenu button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
